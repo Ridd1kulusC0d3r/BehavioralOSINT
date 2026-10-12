@@ -17,7 +17,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Ensure only source files are versioned
         run: |
-          if git ls-files | grep -E '(^|/)(__pycache__/|.*\\.pyc$)'; then
+          if git ls-files | grep -E '(__pycache__/|[.]pyc$)'; then
             echo "Compiled Python artifacts must not be committed"
             exit 1
           fi
