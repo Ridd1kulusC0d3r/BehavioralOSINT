@@ -42,6 +42,8 @@ Sleep/wake cycles, posting rhythm, timezone and holiday inference from timestamp
 - [Osintgram](https://github.com/Datalux/Osintgram) - Instagram interaction analysis (archived upstream, fork-dependent).
 - [Twint (archived)](https://github.com/twintproject/twint) - Historical reference for scraping timelines without API; see [Social Graph](#social-graph-and-network-analysis) for alternatives.
 - [Wayback Machine CDX API](https://github.com/internetarchive/wayback) - Page change history as a behavioral timeline.
+- [`tools/gh_activity.py`](tools/gh_activity.py) - Hourly/weekday activity profile of a public GitHub user (this repo).
+- [`tools/wayback_timeline.py`](tools/wayback_timeline.py) - Version timeline of a URL from the Wayback CDX API (this repo).
 - [`tools/tz_guess.py`](tools/tz_guess.py) - Minimal timezone/activity-window estimator from timestamps (this repo).
 
 ## GitHub Profile and Activity Analysis
@@ -118,6 +120,8 @@ Stdlib-only, simple by design:
 | Tool | What it does |
 |------|--------------|
 | [`tools/tz_guess.py`](tools/tz_guess.py) | Estimate timezone offset and active hours from a list of timestamps. |
+| [`tools/gh_activity.py`](tools/gh_activity.py) | Hour/weekday histogram and timezone guess for a public GitHub user. |
+| [`tools/wayback_timeline.py`](tools/wayback_timeline.py) | Timeline of content changes of a URL via Wayback Machine. |
 | [`tools/style_compare.py`](tools/style_compare.py) | Compare two texts by function-word profile (cosine similarity). |
 | [`tools/check_links.py`](tools/check_links.py) | Check that every link in the README resolves. |
 
