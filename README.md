@@ -44,6 +44,13 @@ Sleep/wake cycles, posting rhythm, timezone and holiday inference from timestamp
 - [Wayback Machine CDX API](https://github.com/internetarchive/wayback) - Page change history as a behavioral timeline.
 - [`tools/tz_guess.py`](tools/tz_guess.py) - Minimal timezone/activity-window estimator from timestamps (this repo).
 
+## GitHub Profile and Activity Analysis
+
+- [gh-fake-analyzer](https://github.com/shortdoom/gh-fake-analyzer) - Dump GitHub profile data to spot fake/bot profiles, copied commits and identity variations (no license stated).
+- [ghspy](https://pypi.org/project/ghspy/) - CLI for email discovery, timezone estimation and activity patterns from GitHub profiles (v0.1.0, early).
+- [github-monitor](https://github.com/misiektoja/github_monitor) - Real-time tracking of profile, contribution and follower changes with notifications.
+- [Octosuite](https://github.com/bellingcat/octosuite) - Bellingcat's terminal toolkit for GitHub data analysis.
+
 ## Social Graph and Network Analysis
 
 - [Gephi](https://gephi.org/) - Graph visualization and community detection.
@@ -64,13 +71,24 @@ Sleep/wake cycles, posting rhythm, timezone and holiday inference from timestamp
 - [Bellingcat Online Investigations Toolkit](https://github.com/bellingcat/toolkit) - Bellingcat's curated tool index.
 - [Bellingcat Auto Archiver](https://github.com/bellingcat/auto-archiver) - Automatically archive social posts as evidence.
 
+## Research, Datasets and Personality Inference
+
+- [BEACON](https://huggingface.co/datasets/beacon-gui/BEACON-Dataset) - Multimodal dataset/benchmark for behavioral fingerprint learning from gameplay (continuous authentication research).
+- [PersonalityDetection (ADF)](https://github.com/Once2gain/PersonalityDetection) - Attention-based denoising framework for personality detection from social media text (academic code, MIT).
+- [Human Behavior Atlas](https://github.com/MIT-MI/human_behavior_atlas) - ICLR/ICML 2026 benchmark and OmniSapiens models for human behavior analysis (ML research, not OSINT-specific).
+
+## Counter-OSINT and Defense
+
+- [Kala](https://github.com/fevra-dev/Kala) - Browser extension adding noise to typing/mouse/touch dynamics to resist behavioral fingerprinting (MIT, very early).
+
 ## Frameworks and Collection Platforms
 
 - [SpiderFoot](https://github.com/smicallef/spiderfoot) - Automated OSINT collection and correlation.
 - [Recon-ng](https://github.com/lanmaster53/recon-ng) - Modular web reconnaissance framework.
 - [theHarvester](https://github.com/laramies/theHarvester) - Emails, subdomains, names from public sources.
+- [MOSAIC](https://github.com/Or1un/MOSAIC) - Privacy-first behavioral intelligence framework: multi-platform public data, "behavioral fingerprints", local LLM analysis by default (MIT).
+- [SocioSential](https://github.com/h9zdev/SocioSential) - Emotional patterns, anomalies and sentiment shifts on Twitter/Reddit. **Archived**; CC BY-NC 4.0 (non-commercial).
 - [AnubisX](https://github.com/AnubisXFramework/AnubisXFramework) - Research framework for behavioral digital attribution (stylometric fingerprints of operators). Self-reported results (see its [Zenodo record](https://zenodo.org/records/21446923)); no independent evaluation.
-- [Xkeystroke](https://github.com/AIOSINT/Xkeystroke) - Web-interface OSINT aggregation/analysis tool by the AIOSINT org. Early-stage, review before use.
 - [OPSEC-OSINT-Tools](https://github.com/airborne-commando/OPSEC-OSINT-Tools) - Guide collection; see `markdown/Digital-Profiling.md` for a digital profiling pipeline.
 - [Awesome OSINT](https://github.com/jivoi/awesome-osint) - The general OSINT list this one complements.
 
@@ -84,13 +102,6 @@ Ideas worth building or tracking (PRs with working implementations welcome):
 - **Deletion behavior** - Track what gets removed and when (e.g. via archives and caches) as a signal.
 - **Evidence-grade pipelines** - Hashing + archiving every collected artifact for reproducibility.
 - **Counter-OSINT / self-audit** - Measure your own behavioral leakage before an adversary does.
-
-### Candidates under review
-
-Mentioned but **not yet verified** (no repository found, or only an alpha announcement). PRs with a confirmed URL are welcome:
-
-- **MOSAIC** - multi-platform behavioral analysis (GitHub, Reddit, YouTube...), local analysis via Ollama; only an alpha Reddit announcement found.
-- **SocioSential** - no repository found; the closest verified match is [socioscan](https://github.com/h9zdev/socioscan).
 
 ## Learning Resources
 
