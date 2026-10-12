@@ -4,6 +4,8 @@
 
 Contributions welcome, see [CONTRIBUTING.md](CONTRIBUTING.md). Use only on public data, with authorization, and read the [Ethics](#ethics) section first.
 
+> **Research status:** this repository is a curated reference and collection of experimental scripts, **not a validated person-profiling system**. Observed activity and similarity do not prove identity, whereabouts, motivation or personality. Evaluation criteria, negative controls, error metrics, and privacy boundaries are specified in the [evaluation protocol](docs/EVALUATION_PROTOCOL.md). CI validates only offline software checks, not behavioral inference accuracy.
+
 ## Contents
 
 - [Username and Identity Correlation](#username-and-identity-correlation)
@@ -16,6 +18,7 @@ Contributions welcome, see [CONTRIBUTING.md](CONTRIBUTING.md). Use only on publi
 - [Innovations and Research Directions](#innovations-and-research-directions)
 - [Learning Resources](#learning-resources)
 - [Python Mini-Tools (this repo)](#python-mini-tools-this-repo)
+- [Evaluation protocol](docs/EVALUATION_PROTOCOL.md)
 - [Ethics](#ethics)
 
 ## Username and Identity Correlation
